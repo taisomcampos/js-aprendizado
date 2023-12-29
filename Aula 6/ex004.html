@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: aliceblue;
+            text-align: justify;
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var nome = window.prompt('Digite o seu nome:')
+        document.write(`Seu nome tem <strong>${nome.length}</strong> letras.</br>`)
+        document.write(`Seu nome, em letras maiúsculas, seria: <strong>${nome.toUpperCase()}</strong>.</br>`)
+        document.write(`Seu nome, em letras minúsculas, seria: <strong>${nome.toLowerCase()}</strong>.`)
+
+        var nome = window.prompt('Digite o seu nome:')
+        var sobrenome = window.prompt('Digite o seu sobrenome:')
+        var idade = window.prompt('Didite sua idade:')
+        var linguagem = window.prompt('Que linguagem você está aprendendo?')
+        var n1 = Number(window.prompt('Digite um número:'))
+        var n1 = Number(window.prompt('Digite outro número:'))
+        var soma = n1 + n2
+        document.write(`Seja bem vindo, <strong>${nome.toUpperCase()} ${sobrenome.toUpperCase()}</strong>!</br> Aos <strong>${idade}</strong> anos você esta aprendendo <strong>${linguagem.toUpperCase()}</strong> e isso é muito bom!</br> A soma de <strong>${n1} + ${n2}</strong> é <strong>${soma}</strong>.`)
+    </script>
+</body>
+
+</html>
