@@ -12,4 +12,4 @@ function verificar() {
     } else {
         res.innerHTML += `<p><strong>Voto obrigatório!</strong></p>`;
     }
-}
+} // Isso é uma condição aninhada
