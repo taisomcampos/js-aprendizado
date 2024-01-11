@@ -1,5 +1,4 @@
 function hora() {
-    let hora = document.querySelector('input#hora');
     let res = document.querySelector('div#res');
     let agora = new Date();
     let horaAtual = agora.getHours();
