@@ -10,13 +10,17 @@ header {
 
 section {
     background: aliceblue;
-    color: rgba(0, 0, 0, 0.521);
-    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.363);
     padding: 15px;
     width: 500px;
     margin: auto;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
 
+div {
+    text-align: center;
+    padding: 6px;
 }
 
 footer {
