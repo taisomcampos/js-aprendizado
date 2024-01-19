@@ -10,7 +10,7 @@ function diaSemana() {
         case 1:
             res.innerHTML += `<p>Segunda-feira</p>`;
             break
-        case 2:s
+        case 2:
             res.innerHTML += `<p>Terça-feira</p>`;
             break
         case 3:
