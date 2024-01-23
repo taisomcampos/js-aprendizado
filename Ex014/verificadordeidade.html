@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Ex014/css/style.css">
-    <title>Verificador de Idade</title>
+    <title>Verificador De Idade</title>
 </head>
 
 <body>
@@ -14,25 +14,29 @@
     </header>
     <section>
         <div>
-            <p>Ano de Nascimento:
-                <input type="number" name="txtano" id="txtano" min="0">
+            <p>
+                Ano de nascimento:
+                <input type="number" name="anoNascimento" id="anoNascimento">
             </p>
-            <p>Sexo:
-                <input type="radio" name="radsex" id="masc" checked>
-                <label for="masc">Masculino</label>
-                <input type="radio" name="radsex" id="femi">
-                <label for="femi">Feminino</label>
+            <p>
+                Sexo:
+                <input type="radio" name="sexo" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino">Feminino</label>
             </p>
             <p>
                 <input type="button" value="Verificar" onclick="verificar()">
             </p>
         </div>
-        <div id="res">
-            Preencha os dados acima para ver o resultado!
+        <div id="resultado">
+            
         </div>
     </section>
     <footer>
-        <p>&copy;taisomcampos</p>
+        <p>
+            &copy;taisomcampos
+        </p>
     </footer>
     <script src="/Ex014/js/script.js"></script>
 </body>
