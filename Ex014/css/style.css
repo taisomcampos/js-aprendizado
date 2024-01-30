@@ -1,5 +1,5 @@
 body {
-    background-color: crimson;
+    background-color: chocolate;
     font: normal 15pt Arial;
 }
 
@@ -14,7 +14,7 @@ section {
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
 }
 
 footer {
