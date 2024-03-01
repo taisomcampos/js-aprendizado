@@ -1,28 +1,29 @@
 body {
-    background-color: steelblue;
+    background-color: crimson;
     font: normal 15pt Arial;
 }
 
 header {
-    color: aliceblue;
+    color: whitesmoke;
     text-align: center;
 }
 
 section {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     width: 500px;
     margin: auto;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
-#nasc::placeholder {
+#txtano::placeholder {
     font-style: italic;
 }
 
 footer {
-    color: aliceblue;
     text-align: center;
+    color: white;
+    padding: 10px;
     font-style: italic;
 }
