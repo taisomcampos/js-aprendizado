@@ -1,0 +1,28 @@
+body {
+    background-color: tomato;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: azure;
+    text-align: center;
+}
+
+section {
+    background-color: azure;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    color: azure;
+    text-align: center;
+    font-style: italic;
+}
