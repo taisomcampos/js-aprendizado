@@ -1,5 +1,5 @@
 body {
-    background-color:cyan;
+    background-color: steelblue;
     font: normal 15pt Arial;
 }
 
@@ -14,16 +14,15 @@ section {
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
 }
 
 div {
-    padding: 10px;
     text-align: center;
 }
 
 footer {
-    color: aliceblue;
     text-align: center;
+    color: aliceblue;
     font-style: italic;
 }
