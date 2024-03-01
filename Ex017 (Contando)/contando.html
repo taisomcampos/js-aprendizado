@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Ex017 (Contando)/css/style.css">
-    <title>Contando</title>
+    <title>Contagem</title>
 </head>
+
 <body>
     <header>
-        <h1>Contando</h1>
+        <h1>Contagem</h1>
     </header>
     <section>
         <div>
-            <p><input type="number" name="txti" id="txti" placeholder="Inicio"></p>
-            <p><input type="number" name="txtf" id="txtf" placeholder="Fim"></p>
-            <p><input type="number" name="txtp" id="txtp" placeholder="Passo"></p>
-            <p><input type="button" value="Contar" onclick="contar()"></p>
+            <p>
+                <input type="number" name="inicio" id="txti" placeholder="Início">
+            </p>
+            <p>
+                <input type="number" name="fim" id="txtf" placeholder="Fim">
+            </p>
+            <p>
+                <input type="number" name="passo" id="txtp" placeholder="Passo">
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="contar()">
+            </p>
         </div>
         <div id="res">
 
@@ -26,4 +36,5 @@
     </footer>
     <script src="/Ex017 (Contando)/js/script.js"></script>
 </body>
+
 </html>
