@@ -1,12 +1,6 @@
-let num = [5, 4, 2, 6, 3];
-num.push(1)
-num.sort()
-console.log(num)
-console.log(`O vetor tem ${num.length} posições.`);
-console.log(`O primeiro valor do vetor é ${num[0]}.`);
-let pos = num.indexOf(8);
-if (pos == -1) {
-    console.log('O valor não foi encontrado!');
-} else {
-    console.log(`O valor 6 está na posição ${pos}.`);
-}
+let valor = [6, 3, 2, 4, 5];
+valor.push(1, 7);
+valor.sort();
+console.log(valor);
+console.log(`O vetor tem ${valor.length} posições.`);
+console.log(`O primeiro valor do vetor é ${valor[0]}.`);
