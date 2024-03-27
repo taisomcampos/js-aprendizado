@@ -1,8 +1,8 @@
-function parimpar(n) {
-    if (n % 2 == 0) {
+function parimpar(n) { //(n) é o parâmetro
+    if (n % 2 == 0) { //nesse caso a condição é a ação
         return 'Par!';
     } else {
-        return 'Ímpar!';
+        return 'Ímpar!'; //ímpar é o retorno
     }
 }
 
@@ -10,4 +10,4 @@ function parimpar(n) {
 let res = parimpar(4);
 console.log(res)
 */
-console.log(parimpar(45));
+console.log(parimpar(45)); //parimpar é a chamada
