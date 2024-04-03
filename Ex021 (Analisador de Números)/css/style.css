@@ -1,0 +1,28 @@
+body {
+    background-color: slateblue;
+    font: normal 15pt 'Roboto';
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+}
+
+section {
+    background-color: aliceblue;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+}
+
+select#flista {
+    width: 150px;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
