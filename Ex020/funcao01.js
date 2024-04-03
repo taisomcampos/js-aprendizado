@@ -1,13 +1,9 @@
-function parimpar(n) { //(n) é o parâmetro
-    if (n % 2 == 0) { //nesse caso a condição é a ação
+function parimpar(n) {
+    if (n % 2 == 0) {
         return 'Par!';
     } else {
-        return 'Ímpar!'; //ímpar é o retorno
+        return 'Ímpar!';
     }
 }
 
-/*
-let res = parimpar(4);
-console.log(res)
-*/
-console.log(parimpar(45)); //parimpar é a chamada
+console.log(parimpar(45));
