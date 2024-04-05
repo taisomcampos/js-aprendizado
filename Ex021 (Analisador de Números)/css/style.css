@@ -21,6 +21,10 @@ select#flista {
     width: 150px;
 }
 
+div {
+    text-align: center;
+}
+
 footer {
     color: aliceblue;
     text-align: center;
